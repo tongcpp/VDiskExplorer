@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VDiskExplorer</string>
+    <string name="menu_settings">Settings</string>
+    <string name="str_rename">重命名:</string>
+    <string name="str_new">新建:</string>
+    <string name="str_copy">复制到位置：</string>
+    <string name="str_move">移动到位置：</string>
+    <string name="file">文 件</string>
+    <string name="dir">文件夹</string>
+    <string name="dirAddButton">新建</string>
+    <string name="dirSetButton">设置</string>
+    <string name="dirAboutButton">关于..</string>
+    <string name="open">打开方式</string>
+    <string name="zoom">缩略图片</string>
+
+    <drawable name="white">#FFFFFFFF</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="blue">#0000FF</drawable>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_vdisk_file">微盘VDisk</string>
+
+    <!-- VDiskTestActivity类中报告异常使用 -->
+    <string name="exception_vdisk_io">网络连接异常</string>
+    <string name="exception_vdisk_parse">数据解析异常</string>
+    <string name="exception_vdisk_local_storage_full">本地存储空间已满</string>
+    <string name="exception_vdisk_unlinked">未登录或token过期</string>
+    <string name="exception_vdisk_file_size">文件大小超出限制</string>
+    <string name="exception_vdisk_partial_file">传输未完成</string>
+    <string name="exception_vdisk_unknown">未知异常</string>
+    <string name="title_activity_file_tab">FileTabActivity</string>
+
+</resources>

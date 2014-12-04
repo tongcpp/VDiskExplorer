@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearOpen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <ImageView
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:src="@drawable/list" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="15.0"
+            android:text="@string/open"
+            android:textColor="@drawable/white"
+            android:textSize="20sp" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/checkOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </CheckBox>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearOpen"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <ImageView
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:src="@drawable/list" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textZoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="15.0"
+            android:text="@string/zoom"
+            android:textColor="@drawable/white"
+            android:textSize="20sp" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/checkZoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </CheckBox>
+    </LinearLayout>
+
+</RelativeLayout>

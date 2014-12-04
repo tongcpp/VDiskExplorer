@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/new_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:drawableLeft="@drawable/edit"
+        android:drawablePadding="1dip"
+        android:gravity="left"
+        android:padding="2px"
+        android:text="@string/str_new"
+        android:textSize="18sp" >
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/new_radio"
+        android:layout_width="149px"
+        android:layout_height="100px"
+        android:layout_x="17px"
+        android:layout_y="100px"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/newfile_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/file" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/newdir_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dir" >
+        </RadioButton>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/new_edit"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:autoText="false"
+        android:gravity="fill_horizontal" >
+    </EditText>
+
+</LinearLayout>
